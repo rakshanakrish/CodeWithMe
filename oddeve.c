@@ -8,7 +8,7 @@ int main()
     if (num % 2 == 0){
         printf("It is Even");
     } else if (num % 2 == 0) {
-       printf("It is Zero");
+       printf("It is Even");
     } else {
         printf("It is Odd");
     }
