@@ -9,5 +9,6 @@ class hello{
         int age = scan.nextInt();
         System.out.println("My name is "+name);
         System.out.println("My age is "+age);
+        
     }
 }
