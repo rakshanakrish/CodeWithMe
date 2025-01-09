@@ -1,3 +1,4 @@
+package basics;
 public class DataT {
     public static void main(String args[])
     {
