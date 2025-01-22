@@ -1,5 +1,6 @@
-public class ElseIf{
-    public static void main(StringComp args[])
+import java.util.*;
+class ElseIf{
+    public static void main(String args[])
     {
         int score= 62;
 
