@@ -1,3 +1,4 @@
+package lil_adv;
 class students
 {
     int Age;

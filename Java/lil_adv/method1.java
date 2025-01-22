@@ -1,3 +1,4 @@
+package lil_adv;
 public class method1 {
     static void printline(){
         System.out.println("Static method called");
