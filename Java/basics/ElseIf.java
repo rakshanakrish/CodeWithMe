@@ -1,3 +1,4 @@
+package basics;
 import java.util.*;
 class ElseIf{
     public static void main(String args[])
