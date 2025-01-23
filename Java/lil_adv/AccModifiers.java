@@ -9,22 +9,18 @@ class AccModifiers {
         System.out.println(rollno);}
     
     public void setVal(String str, int num){
-        name = "str";
-        rollno = 1;
-
+        name = str;
+        rollno = num;
     }
-    public void disp(){
-        System.out.println(name);
+    public void getVal(){
+        display(); // Call the private display() method within the class
     }
-
 }
 class another{
     public static void main(String[] args) {
         AccModifiers obj = new AccModifiers();
         obj.setVal("Rakshana",67);
-        obj.display();
+        obj.getVal();
 
     }
-
-
 }
