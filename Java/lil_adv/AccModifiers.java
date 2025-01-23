@@ -13,7 +13,8 @@ class AccModifiers {
         rollno = num;
     }
     public void getVal(){
-        display(); // Call the private display() method within the class
+        display();
+         // Call the private display() method within the class
     }
 }
 class another{
