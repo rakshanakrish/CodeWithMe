@@ -1,6 +1,7 @@
+
+//printing even numbers and then odd numbers
 package array;
 import java.util.*;
-//printing of even numbers and then odd numbers
 public class one {
     public static void main(String[] args) {
         //Scanner sc = new Scanner(System.in);
@@ -12,8 +13,6 @@ public class one {
             if(arr[i]%2==0){
                 System.out.println(arr[i]);
             }
-        
-            
         }
         System.out.println("Odd numbers are: ");
         for(int i =0;i<arr.length;i++){
