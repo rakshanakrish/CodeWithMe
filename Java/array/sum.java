@@ -4,18 +4,22 @@ import java.util.Scanner;
 public class sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[100];
-        int sum = 0;
-        System.out.println("Enter numbers (enter 0 to stop):");
+        System.out.println("Enter the size of the array:");
+        int n = sc.nextInt(); // Array size
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt(); // Read input
-            if (arr[i] == 0) {     // Stop input if 0 is entered
-                break;
-            }
-            sum += arr[i];         // Add to sum if not 0
+        int[] numbers = new int[n];
+        System.out.println("Enter the elements of the array:");
+
+        for (int i = 0; i < n; i++) {
+            numbers[i] = sc.nextInt(); // Taking user input
         }
-        
-        System.out.println("Sum of entered numbers: " + sum);
+
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += numbers[i];
+        }
+
+        System.out.println("The sum of the array elements is: " + sum);
     }
 }
+
