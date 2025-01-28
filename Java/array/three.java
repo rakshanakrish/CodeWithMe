@@ -8,7 +8,7 @@ public class three {
         System.out.println("Square roots of the array elements:");
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = sc.nextInt(); 
-            System.out.printf("Square root of %d is %.3f\n", numbers[i], Math.sqrt(numbers[i]));
+            System.out.printf("Square root of %d is %.3f\n", numbers[i], Math.sqrt(numbers[i]));//For finding cube (numbers[i], Math.pow(numbers[i],3)
         }
     }
 }
