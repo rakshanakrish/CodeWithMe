@@ -6,12 +6,13 @@ public class evenArraySum {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr= new int[n];
+        int sum = 1;
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
-            if(n%2==0){
-                System.out.println("Sum of even numbers is "+arr[i]);
-            }
-        }
+            if(arr[i]%2==0){
+                sum =sum*arr[i];
+            }}
+            System.out.println(sum);
     }
     
 }
