@@ -1,0 +1,14 @@
+digraph "Agricultural Apps" {
+	"Bushel Farm" [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	Orbit [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	"Insights by Prospera" [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	CropX [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	GROWERS [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	Krishify [fillcolor=lightblue fontsize=12 shape=box style=filled]
+	"Bushel Farm" -> CropX [color=black]
+	CropX -> "Insights by Prospera" [color=black]
+	"Insights by Prospera" -> GROWERS [color=black]
+	GROWERS -> Krishify [color=black]
+	Krishify -> Orbit [color=black]
+	Orbit -> "Bushel Farm" [color=black]
+}
