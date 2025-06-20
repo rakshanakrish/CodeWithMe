@@ -6,6 +6,8 @@ for i in range(len(a)):
             a[i],a[j]=a[j],a[i]
 print(a[-3])
 
+# Another method
+
 #a=[4,5,8,7,6]
 #a.sort()
 #print(a[-3])
