@@ -1,4 +1,5 @@
 ## Swapping smallest and largest alphabets
+
 a=['r','a','k','s','h','a','n','a']
 mini = 0  
 maxi = 0  
