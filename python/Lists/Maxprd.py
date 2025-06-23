@@ -1,3 +1,4 @@
+## Maximum products of 3 elements
 a=[10,3,5,6,20]
 for i in range(len(a)):
     for j in range(i+1,len(a)):
