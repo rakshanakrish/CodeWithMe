@@ -4,5 +4,6 @@ n=len(a)
 k=2
 k=k%n
 print(a[k:]+a[:k])
+
 """for right rotation we use
 print(a[-k:]+a[:-k])"""
