@@ -1,3 +1,4 @@
+#error
 def a(num):
     digits=[int(d)for d in digits(str(num))]
     n=len(str(num))
