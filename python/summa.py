@@ -1,10 +1,14 @@
-n=153
-a=list(str(n))
-b=len(a)
-c=0
-for i in a:
-    c+=int(i)**b
-if c==n:
-    print(True)
-else:
-    print(False)
+nums=[1,3,5,6]
+target=7
+l,h=0,len(nums)-1
+while l<=h:
+    m=(l+h)//2
+    if nums[m]>target :
+        h-=1 
+    elif l==h:
+        print(l)   
+    if nums[m]<target:
+        l+=1
+    
+
+
