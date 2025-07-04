@@ -1,4 +1,4 @@
-a="hello"
+a="babad"
 b=set()
 l,r,m,s=0,0,0,0
 while(r<len(a)):
@@ -13,5 +13,6 @@ while(r<len(a)):
         l+=1
         
 print(a[s:s+m])
+print(b)
 
 
