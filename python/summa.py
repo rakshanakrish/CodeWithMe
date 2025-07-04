@@ -3,4 +3,5 @@ a=""
 for i in s:
     if i.isalnum():
         a+=i.lower()
+print(a==a[::-1])
     
