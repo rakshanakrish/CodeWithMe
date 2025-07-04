@@ -9,3 +9,9 @@ else:
 
 """ listen
     silent """
+# not close code
+"""Better to use
+    sorted(a)==sorted(b)
+            or
+    from collections import Counter
+    Counter(a) == Counter(b)"""
