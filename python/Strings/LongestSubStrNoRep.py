@@ -1,4 +1,4 @@
-a="babad"
+a="abcabcbb"
 b=set()
 l,r,m,s=0,0,0,0
 while(r<len(a)):
