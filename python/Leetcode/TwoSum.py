@@ -6,8 +6,7 @@ def g(a):
     for i, v in enumerate(a):
         if t - v in h:
             return h[t - v], i   
-        else:
-            h[v] = i
+        h[v] = i
 
 x, y= g(a)
 print(x, y)
