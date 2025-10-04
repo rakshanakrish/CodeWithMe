@@ -1,5 +1,14 @@
-a=[2,11,15,7]
-t=9
-for i in range(1,len(a)):
-    if a[i-1]+a[i]==t:
-        print(i-1,i)
+class car:
+    def __init__(self,carname,mileage):
+        self.carname=carname
+        self.__mileage=mileage
+    @property
+    def mileage(self):
+        return self.__mileage
+    @mileage.setter
+    def mileage(self,v):
+        self.__mileage=v
+car1=car('Inova',25)
+print(car1.mileage)
+car1.mileage=20
+print(car1.mileage)
